@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Themesdesign" />
+
+    <link rel="shortcut icon" href="images/black.png">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!--Material Icon -->
+    <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.css" />
+
+    <!-- selectize css -->
+    <link rel="stylesheet" type="text/css" href="css/selectize.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/nice-select.css" />
+
+    <!-- Custom  Css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+
+<body>
+    <!-- Loader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Loader -->
+
+    <!-- Navigation Bar-->
+    <header id="topnav" class="defaultscroll scroll-active">
+        <!-- Tagline STart -->
+        <div class="tagline">
+            <div class="container">
+                <div class="float-left">
+                    <div class="phone">
+                        <i class="mdi mdi-phone-classic"></i> +62 831 9299 8954
+                    </div>
+                    <div class="email">
+                        <a href="#">
+                            <i class="mdi mdi-email"></i> Gawe.Id@gmail.com
+                        </a>
+                    </div>
+                </div>
+                <div class="float-right">
+                    <ul class="topbar-list list-unstyled d-flex" style="margin: 11px 0px;">
+                        <li class="list-inline-item"><a href="javascript:void(0);"><i class="mdi mdi-account mr-2"></i>Admin</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <!-- Tagline End -->
+
+        <!-- Menu Start -->
+        <div class="container">
+            <!-- Logo container-->
+            <div>
+                <a href="index.html" class="logo">
+                    <img src="images/Gawe.Id.png" alt="" class="logo-light" height="100"  />
+                    <img src="images/black.png" alt="" class="logo-dark" height="50" />
+                </a>
+            </div>                 
+            <!--end login button-->
+            <!-- End Logo container-->
+            <div class="menu-extras">
+                <div class="menu-item">
+                    <!-- Mobile menu toggle-->
+                    <a class="navbar-toggle">
+                        <div class="lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                    <!-- End mobile menu toggle-->
+                </div>
+            </div>
+    
+            <div id="navigation">
+                <!-- Navigation Menu-->   
+                <ul class="navigation-menu">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li class="has-submenu">
+                        <a href="javascript:void(0)">Perusahaan</a><span class="menu-arrow"></span>
+                        <ul class="submenu">
+                            <li><a href="index4.html">Registrasi Perusahaan</a></li>
+                            <li><a href="employers-list.html">Informasi Perusahaan</a></li>
+                            
+                        </ul>
+                    </li>
+    
+                    <li class="has-submenu">
+                        <a href="javascript:void(0)">Pekerja</a><span class="menu-arrow"></span>
+                        <ul class="submenu">
+                            <li><a href="index1.html">Registrasi Pekerja</a></li>
+                            <li><a href="create-resume.html">Create Resume</a></li>
+                            <li><a href="job-grid.html">List Pekerjaan</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="blog-grid.html">Tips </a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                </ul><!--end navigation menu-->
+            </div><!--end navigation-->
+        </div><!--end container-->
+        <!--end end-->
+    </header><!--end header-->
+    <!-- Navbar End -->
+    
+    <!-- Start home -->
+    <section class="bg-half page-next-level" style="background: url('https://c4.wallpaperflare.com/wallpaper/569/984/941/metal-simple-background-abstract-4k-wallpaper-preview.jpg') center center;"> 
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="text-center text-white">
+                        <h4 class="text-uppercase title mb-4">Create Resume</h4>
+                        <ul class="page-next d-inline-block mb-0">
+                            <li>
+                                <span class="text-uppercase text-white font-weight-bold">Membuat Resume sesuai pengalaman anda</span> 
+                            </li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end home -->
+
+    <!-- CREATE RESUME START -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h5 class="text-dark">Informasi Pribadi:</h5>
+                </div>
+ 
+                <div class="col-12 mt-3">
+                    <div class="custom-form p-4 border rounded">
+                        <img src="https://via.placeholder.com/400X400//88929f/5a6270C/O https://placeholder.com/" class="img-fluid avatar avatar-medium d-block mx-auto rounded-pill" alt="">
+                        <form>
+                            <div class="row mt-4">
+                                <div class="col-md-4">
+                                    <div class="form-group app-label">
+                                        <label class="text-muted">Nama Depan<span class="text-danger">*</span> :</label>
+                                        <input id="first-name" type="text" name="name" class="form-control resume" placeholder="Nama Depan :">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group app-label">
+                                        <label class="text-muted">Nama Tengah<span class="text-danger">*</span> :</label>
+                                        <input id="middle-name" type="text" class="form-control resume" placeholder="nama tengah :">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group app-label">
+                                        <label class="text-muted">Nama Belakang<span class="text-danger">*</span> :</label>
+                                        <input id="surname-name" type="text" class="form-control resume" placeholder="nama belakang :">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group app-label">
+                                        <label class="text-muted">Lahir<span class="text-danger">*</span> :</label>
+                                        <input id="date-of-birth" type="text" class="form-control resume" placeholder="tgl/bln/thn">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group app-label">
+                                        <label class="text-muted">Sex<span class="text-danger">*</span> :</label>
+                                        <div class="form-button">
+                                            <select class="nice-select rounded">
+                                                <option data-display="jeniskelamin">Jenis Kelamin</option>
+                                                <option value="1">....</option>
+                                                <option value="2">Laki-Laki</option>
+                                                <option value="3">Perempuan</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group app-label">
+                                        <label class="text-muted">Status</label>
+                                        <div class="form-button">
+                                            <select class="nice-select rounded">
+                                                <option data-display="Status">Status</option>
+                                                <option value="1">Belum Menikah</option>
+                                                <option value="2">Sudah Menikah</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12">
+                    <h5 class="text-dark">Kontak Pribadi :</h5>
+                </div>
+
+                <div class="col-12 mt-3">
+                    <div class="custom-form p-4 border rounded">
+                        <form>
+                                <div class="col-md-4">
+                                    <div class="form-group app-label">
+                                        <label class="text-muted">Telepon</label>
+                                        <input id="telepon" type="number" class="form-control resume" placeholder="no telp :">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group app-label">
+                                        <label class="text-muted">E-mail</label>
+                                        <input id="email" type="email" name="email" class="form-control resume" placeholder="email :">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group app-label">
+                                        <label class="text-muted">Media Sosial</label>
+                                        <input id="media" type="text" name="media" class="form-control resume" placeholder="fb/twt/ig">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <div class="form-group app-label">
+                                        <label>Alamat Lengkap :</label>
+                                        <textarea id="address" rows="4" class="form-control resume" placeholder=""></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h5 class="text-dark mt-5">Prestasi :</h5>
+                </div>
+
+                <div class="col-12 mt-3">
+                    <div class="custom-form p-4 border rounded">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group app-label">
+                                        <label class="text-muted">Lulusan</label>
+                                        <input id="graduation" type="text" class="form-control resume" placeholder="S1/S2/S3/D1/D2/D3/D4/SLTA">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group app-label">
+                                        <label class="text-muted">Universitas</label>
+                                        <input id="university/college" type="text" class="form-control resume" placeholder="nama kuliah">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group app-label">
+                                        <label class="text-muted">Gelar/Sertifikat</label>
+                                        <input id="degree/certification" type="text" class="form-control resume" placeholder="">
+                                    </div>
+                                </div>
+                                  <div class="col-md-6">
+                                            <div class="form-group app-label">
+                                                <label class="text-muted">Jurusan</label>
+                                                <input id="course-title" type="text" class="form-control resume" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <div class="form-group app-label">
+                                        <label>Informasi Tambahan :</label>
+                                        <textarea id="addition-information" rows="4" class="form-control resume" placeholder=""></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 mt-5">
+                    <h5 class="text-dark">Pengalaman Kerja :</h5>
+                </div>
+
+                <div class="col-12 mt-3">
+                    <div class="custom-form p-4 border rounded">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group app-label">
+                                        <label class="text-muted">Nama Perusahaan</label>
+                                        <input id="company-name" type="text" class="form-control resume" placeholder="">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group app-label">
+                                        <label class="text-muted">Posisi</label>
+                                        <input id="job-position" type="text" class="form-control resume" placeholder="bekerja sebagai">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group app-label">
+                                        <label class="text-muted">Lokasi/Alamat</label>
+                                        <input id="lokasi" type="text" class="form-control resume" placeholder="">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group app-label">
+                                                <label class="text-muted">Awal kerja</label>
+                                                <input id="date-from" type="text" class="form-control resume" placeholder="01-Jan-2018">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group app-label">
+                                                <label class="text-muted">Resign</label>
+                                                <input id="date-to" type="text" class="form-control resume" placeholder="31-March-2019">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <div class="form-group app-label">
+                                        <label>Informasi Tambahan :</label>
+                                        <textarea id="addition-information-1" rows="4" class="form-control resume" placeholder=""></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="row">
+                <div class="col-12 mt-5">
+                    <h5 class="text-dark">Kemampuan:</h5>
+                </div>
+                
+                <div class="col-12 mt-3">
+                    <div class="custom-form p-4 border rounded">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group app-label">
+                                        <label class="text-muted">Skills</label>
+                                        <input id="skills" type="text" class="form-control resume" placeholder="HTML, CSS, PHP, javascript, ...">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group app-label">
+                                                <label class="text-muted">Level Kemampuan</label>
+                                                <div class="form-button">
+                                                    <select class="nice-select rounded">
+                                                        <option data-display="Select">Select</option>
+                                                        <option value="1">Level-1</option>
+                                                        <option value="2">Level-2</option>
+                                                        <option value="3">Level-3</option>
+                                                        <option value="4">Level-4</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                <div class="col-lg-12">
+                                    <div class="form-group app-label">
+                                        <label class="text-muted">Seberapa yakin dengan kemamouan anda</label>
+                                        <input id="skill_proficiency" type="text" class="form-control resume" placeholder="75%">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="col-12 mt-4">
+                    <input type="submit" id="submit" name="send" class="submitBnt btn btn-primary" value="Submit Resume">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CREATE RESUME END -->
+
+    <!-- subscribe start -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-5">
+                    <div class="float-left position-relative notification-icon mr-2">
+                        <i class="mdi mdi-bell-outline text-primary"></i>
+                        <span class="badge badge-pill badge-danger">1</span>
+                    </div>
+                    <h5 class="mt-2 mb-0">Your Job Notification</h5>
+                </div>
+                <div class="col-lg-8 col-md-7 mt-4 mt-sm-0">
+                    <form>
+                        <div class="form-group mb-0">
+                            <div class="input-group mb-0">
+                                <input name="email" id="email" type="email" class="form-control" placeholder="Your email :" required="" aria-describedby="newssubscribebtn">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary submitBnt" type="submit" id="newssubscribebtn">Subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- subscribe end -->
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+                    <a href="javascript:void(0)"><img src="images/Gawe.Id.png" height="70" alt="" ></a><b>Gawe.Id</b>
+                    <p class="mt-4">Jelajahi Dunia Kerja Dengan Mudah Bersama Kami Gawe.Id</p>
+                    <ul class="social-icon social list-inline mb-0">
+                        <li class="list-inline-item"><a href="#" class="rounded"><i class="mdi mdi-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="rounded"><i class="mdi mdi-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="rounded"><i class="mdi mdi-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="rounded"><i class="mdi mdi-google"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <p class="text-white mb-4 footer-list-title">Perusahaan</p>
+                    <ul class="list-unstyled footer-list">
+                        <li><a href="#" class="text-foot"><i class="mdi mdi-chevron-right"></i> Registrasi Perusahaan</a></li>
+                        <li><a href="#" class="text-foot"><i class="mdi mdi-chevron-right"></i> Informasi Perusahaan</a></li>
+                        <li><a href="#" class="text-foot"><i class="mdi mdi-chevron-right"></i> Lowongan Kerja</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <p class="text-white mb-4 footer-list-title">Pekerja</p>
+                    <ul class="list-unstyled footer-list">
+                        <li><a href="#" class="text-foot"><i class="mdi mdi-chevron-right"></i> Registrasi Pekerja</a></li>
+                        <li><a href="#" class="text-foot"><i class="mdi mdi-chevron-right"></i> Create Resume</a></li>
+                        <li><a href="#" class="text-foot"><i class="mdi mdi-chevron-right"></i> Tips</a></li>
+                    </ul>
+                </div>
+            
+                <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <p class="text-white mb-4 footer-list-title f-17">Tentang Kami</p>
+                    <ul class="list-unstyled text-foot mt-4 mb-0">
+                        <li>Senin - Jum'at : 08:00 to 16:00</li>
+                        <li class="mt-2">Sabtu : 10:00 to 15:00</li>
+                        <li class="mt-2">Minggu : Libur (Holiday)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <hr>
+    <footer class="footer footer-bar">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="">
+                        <p class="mb-0">© 2021.2022 Gawe.Id  <i class="mdi mdi-heart text-danger"></i> by Ultramen.</p>
+                    </div>
+                </div>
+            </div>
+        </div><!--end container-->
+    </footer><!--end footer-->
+    <!-- Footer End -->
+
+    <!-- Back to top -->
+    <a href="#" class="back-to-top rounded text-center" id="back-to-top"> 
+        <i class="mdi mdi-chevron-up d-block"> </i> 
+    </a>
+    <!-- Back to top -->
+
+    <!-- javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/plugins.js"></script>
+
+    <!-- selectize js -->
+    <script src="js/selectize.min.js"></script>
+
+    <script src="js/jquery.nice-select.min.js"></script>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
