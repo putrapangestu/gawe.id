@@ -60,9 +60,12 @@
                     </div>
                 </div>
                 <div class="float-right">
-                    <ul class="topbar-list list-unstyled d-flex" style="margin: 11px 0px;">
-                        <li class="list-inline-item"><a href="javascript:void(0);"><i class="mdi mdi-account mr-2"></i>Admin</a></li>
-                    </ul>
+                    <ul class="navigation-menu">
+                        <li class="has-submenu">
+                            <a href="login.html"><i class="mdi mdi-account mr-2"></i>Admin</a><span></span>
+                        </li>
+                   </ul>
+                   </ul>    
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -79,7 +82,7 @@
                 </a>
             </div>                 
             <div class="buy-button">
-                <a href="post-a-job.html" class="btn btn-primary"><i class="mdi mdi-cloud-upload"></i> Posting Pekerjaan</a>
+                
             </div>
             <!--end login button-->
             <!-- End Logo container-->
@@ -101,31 +104,14 @@
                 <!-- Navigation Menu-->   
                 <ul class="navigation-menu">
                     <li><a href="index.html">Beranda</a></li>
-                    <li class="has-submenu">
-                        <a href="javascript:void(0)">Perusahaan</a><span class="menu-arrow"></span>
-                        <ul class="submenu">
-                            <li><a href="index4.html">Registrasi Perusahaan</a></li>
-                            <li><a href="employers-list.html">Informasi Perusahaan</a></li>
-                            <li><a href="job-grid.html">List Pekerjaan</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="index-perusahaan.html">Perusahaan</a></li>
     
-                    <li class="has-submenu">
-                        <a href="javascript:void(0)">Pekerja</a><span class="menu-arrow"></span>
-                        <ul class="submenu">
-                            <li><a href="index1.html">Registrasi Pekerja</a></li>
-                            <li><a href="create-resume.html">Create Resume</a></li>
-                            <li><a href="resume.html">Resume Pekerja</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="blog-grid.html">Tips </a>
-                    </li>
+                   <li><a href="index-pekerja.html">Pekerja</a></li>
                     <li>
                         <a href="about.html">About</a>
                     </li>
                     <div class="buy-button">
-                        <a href="login.html" class="btn btn-primary"><i class="mdi mdi-cloud-upload"></i> Login</a>
+                        <a href="index-login.html" class="btn btn-primary"><i class="mdi mdi-cloud-upload"></i> Login</a>
                     </div>
                 </ul><!--end navigation menu-->
             </div><!--end navigation-->
@@ -143,90 +129,8 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-12">
                             <div class="title-heading text-center text-white">
-                                <h6 class="small-title text-uppercase text-light mb-3">Temukan pekerjaan, buat resume yang dapat dilacak, dan perkaya aplikasi Anda.</h6>
-                                <h1 class="heading font-weight-bold mb-4">Cara termudah untuk Mendapatkan Pekerjaan</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="home-form-position">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="home-registration-form p-4 mb-3">
-                                    <form class="registration-form">
-                                        <div class="row">
-                                            <div class="col-lg-3 col-md-6">
-                                                <div class="registration-form-box">
-                                                    <i class="fa fa-briefcase"></i>
-                                                    <input type="text" id="exampleInputName1" class="form-control rounded registration-input-box" placeholder="Cari Pekerjaan">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-6">
-                                                <div class="registration-form-box">
-                                                    <i class="fa fa-location-arrow"></i>
-                                                    <select id="select-country" class="demo-default">
-                                                        <option value="">Provinsi</option>
-                                                        <option value="AC">Aceh</option>
-                                                        <option value="SU">Sumatra Utara</option>
-                                                        <option value="SB">Sumatra Barat</option>
-                                                        <option value="BK">Bengkulu</option>
-                                                        <option value="RI">Riau</option>
-                                                        <option value="KR">Kep.Riau</option>
-                                                        <option value="JM">Jambi</option>
-                                                        <option value="LP">Lampung</option>
-                                                        <option value="BB">Bangka Belitung</option>
-                                                        <option value="KB">Kalimantan Barat</option>
-                                                        <option value="KT">Kalimantan TImur</option>
-                                                        <option value="KS">Kalimantan Selatan</option>
-                                                        <option value="KG">Kalimantan Tengah</option>
-                                                        <option value="KU">Kalimantan Utara</option>
-                                                        <option value="BT">Banten</option>
-                                                        <option value="JK">DKI Jakarta</option>
-                                                        <option value="JB">Jawa Barat</option>
-                                                        <option value="JG">Jawa Tengah</option>
-                                                        <option value="DY">DI Yogyakarta</option>
-                                                        <option value="JT">Jawa Timur</option>
-                                                        <option value="BL">Bali</option>
-                                                        <option value="NT">Nusa Tenggara Timur</option>
-                                                        <option value="NB">Nusa Tenggara Barat</option>
-                                                        <option value="GT">Gorontalo</option>
-                                                        <option value="SB">Sulawesi Barat</option>
-                                                        <option value="SG">Sulawesi Tengah</option>
-                                                        <option value="SU">Sulawesi Utara</option>
-                                                        <option value="ST">Sulawesi Tenggara</option>
-                                                        <option value="SS">Sulawesi Selatan</option>
-                                                        <option value="MU">Maluku Utara</option>
-                                                        <option value="MU">Maluku</option>
-                                                        <option value="PB">Papua Barat</option>
-                                                        <option value="PP">Papua</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-6">
-                                                <div class="registration-form-box">
-                                                    <i class="fa fa-list-alt"></i>
-                                                    <select id="select-category" class="demo-default">
-                                                        <option value="">Kategori</option>
-                                                        <option value="4">Akuntasi</option>
-                                                        <option value="1">IT & Software</option>
-                                                        <option value="3">Marketing</option>
-                                                        <option value="5">Banking</option>
-                                                        <option value="2">Koki</option>
-                                                        <option value="6">Pegawai Kantor</option>
-                                                        <option value="7">Pilot</option>
-                                                        <option value="8">Designer</option>
-                                                        <option value="9">Masinis</option>
-                                                        <option value="10">Penjahit</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-6">
-                                                <div class="registration-form-box">
-                                                    <input type="submit" id="submit" name="send" class="submitBnt btn btn-primary btn-block" value="Cari">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
+                                <h6 class="small-title text-uppercase text-light mb-3">Gawe.Id</h6>
+                                <h1 class="heading font-weight-bold mb-4">Bersama Kita Bisa</h1>
                             </div>
                         </div>
                     </div>
@@ -236,1105 +140,7 @@
     </section>
     <!-- end home -->
 
-    <!-- popular category start -->
-    <section class="section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <div class="section-title text-center mb-4 pb-2">
-                        <h4 class="title title-line pb-5">Kategori Terpopuler</h4>
-                        <p class="text-muted para-desc mx-auto mb-1">Posting pekerjaan untuk memberi tahu kami tentang proyek Anda. Kami akan segera mencocokkan Anda dengan freelancer yang tepat.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                    <a href="javascript:void(0)">
-                        <div class="popu-category-box bg-light rounded text-center p-4">
-                            <div class="popu-category-icon mb-3">
-                                <i class="mdi mdi-account d-inline-block rounded-pill h3 text-primary"></i>
-                            </div>
-                            <div class="popu-category-content">
-                                <h5 class="mb-2 text-dark title">Developer</h5>
-                                <p class="text-success mb-0 rounded">780 Jobs</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                    <a href="javascript:void(0)">
-                        <div class="popu-category-box bg-light rounded text-center p-4">
-                            <div class="popu-category-icon mb-3">
-                                <i class="mdi mdi-desktop-classic d-inline-block rounded-pill h3 text-primary"></i>
-                            </div>
-                            <div class="popu-category-content">
-                                <h5 class="mb-2 text-dark title">Technology</h5>
-                                <p class="text-success mb-0 rounded">1270 Jobs</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                    <a href="javascript:void(0)">
-                        <div class="popu-category-box bg-light rounded text-center p-4">
-                            <div class="popu-category-icon mb-3">
-                                <i class="mdi mdi-bank d-inline-block rounded-pill h3 text-primary"></i>
-                            </div>
-                            <div class="popu-category-content">
-                                <h5 class="mb-2 text-dark title">Government</h5>
-                                <p class="text-success mb-0 rounded">2024 Jobs</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                    <a href="javascript:void(0)">
-                        <div class="popu-category-box bg-light rounded text-center p-4">
-                            <div class="popu-category-icon mb-3">
-                                <i class="mdi mdi-auto-fix d-inline-block rounded-pill h3 text-primary"></i>
-                            </div>
-                            <div class="popu-category-content">
-                                <h5 class="mb-2 text-dark title">Accounting / Finance</h5>
-                                <p class="text-success mb-0 rounded">786 Jobs</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                    <a href="javascript:void(0)">
-                        <div class="popu-category-box bg-light rounded text-center p-4">
-                            <div class="popu-category-icon mb-3">
-                                <i class="mdi mdi-office-building d-inline-block rounded-pill h3 text-primary"></i>
-                            </div>
-                            <div class="popu-category-content">
-                                <h5 class="mb-2 text-dark title">Construction / Facilities</h5>
-                                <p class="text-success mb-0 rounded">2156 Jobs</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                    <a href="javascript:void(0)">
-                        <div class="popu-category-box bg-light rounded text-center p-4">
-                            <div class="popu-category-icon mb-3">
-                                <i class="mdi mdi-telegram d-inline-block rounded-pill h3 text-primary"></i>
-                            </div>
-                            <div class="popu-category-content">
-                                <h5 class="mb-2 text-dark title">Tele-communications</h5>
-                                <p class="text-success mb-0 rounded">256 Jobs</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                    <a href="javascript:void(0)">
-                        <div class="popu-category-box bg-light rounded text-center p-4">
-                            <div class="popu-category-icon mb-3">
-                                <i class="mdi mdi-television-classic d-inline-block rounded-pill h3 text-primary"></i>
-                            </div>
-                            <div class="popu-category-content">
-                                <h5 class="mb-2 text-dark title">Design & Multimedia</h5>
-                                <p class="text-success mb-0 rounded">585 Jobs</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                    <a href="javascript:void(0)">
-                        <div class="popu-category-box bg-light rounded text-center p-4">
-                            <div class="popu-category-icon mb-3">
-                                <i class="mdi mdi-human d-inline-block rounded-pill h3 text-primary"></i>
-                            </div>
-                            <div class="popu-category-content">
-                                <h5 class="mb-2 text-dark title">Human Resource</h5>
-                                <p class="text-success mb-0 rounded">548 Jobs</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-12 text-center mt-4 pt-2">
-                    <a href="employers-list.html" class="btn btn-primary-outline">Cari Keseluruhan <i class="mdi mdi-chevron-right"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- popular category end -->
-
-    <!-- all jobs start -->
-    <section class="section bg-light">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <div class="section-title text-center mb-4 pb-2">
-                        <h4 class="title title-line pb-5">Cari Pekerjaanmu</h4>
-                        <p class="text-muted para-desc mx-auto mb-1">Posting pekerjaan untuk memberi tahu kami tentang proyek Anda. Kami akan segera mencocokkan Anda dengan freelancer yang tepat.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-9 text-center mt-4 pt-2">
-                    <ul class="nav nav-pills nav nav-pills bg-white rounded nav-justified flex-column flex-sm-row" id="pills-tab" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link rounded active" id="recent-job-tab" data-toggle="pill" href="#recent-job" role="tab" aria-controls="recent-job" aria-selected="true">Terakhir Kali Dicari</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link rounded" id="part-job-tab" data-toggle="pill" href="#part-job" role="tab" aria-controls="part-job" aria-selected="false">Part Time</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link rounded" id="full-job-tab" data-toggle="pill" href="#full-job" role="tab" aria-controls="full-job" aria-selected="false">Full Time</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="tab-content mt-2" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="recent-job" role="tabpanel" aria-labelledby="recent-job-tab">
-                            <div class="row">
-                                <div class="col-lg-12">
-
-                                    <div class="job-box bg-white overflow-hidden border rounded mt-4 position-relative overflow-hidden">
-                                        <div class="lable text-center pt-2 pb-2">
-                                            <ul class="list-unstyled best text-white mb-0 text-uppercase">
-                                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="p-4">
-                                            <div class="row align-items-center">
-                                                <div class="col-md-2">
-                                                    <div class="mo-mb-2">
-                                                        <img src="images/featured-job/img-1.png" alt="" class="img-fluid mx-auto d-block">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <h5 class="f-18"><a href="#" class="text-dark">Pengembang Web</a></h5>
-                                                        <p class="text-muted mb-0">PT CIPUTRA NUSANTARA</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-primary mr-2"></i>Malang</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-primary">Rp</span>5jt-7jt/bulan</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0">Paruh Waktu</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="p-3 bg-light">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Pengalaman :</span> 1-2 Tahun</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Notes :</span> Kontrak 3 Tahun </p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <a href="#" class="text-primary">Lamar Sekarang <i class="mdi mdi-chevron-double-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="job-box bg-white overflow-hidden border rounded mt-4 position-relative overflow-hidden">
-                                        <div class="lable text-center pt-2 pb-2">
-                                            <ul class="list-unstyled best text-white mb-0 text-uppercase">
-                                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="p-4">
-                                            <div class="row align-items-center">
-                                                <div class="col-md-2">
-                                                    <div class="mo-mb-2">
-                                                        <img src="images/featured-job/img-2.png" alt="" class="img-fluid mx-auto d-block">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <h5 class="f-18"><a href="#" class="text-dark">Designer Web</a></h5>
-                                                        <p class="text-muted mb-0">PT SEGARA INDAH</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-primary mr-2"></i>Surabaya</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-primary">Rp</span>3jt-5jt</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0">Waktu Penuh</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="p-3 bg-light">
-                                            <div class="row">
-                                                <div class="col-md-10">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Pengalaman :</span> 2 - 3 Tahun</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <a href="#" class="text-primary">Lamar Sekarang <i class="mdi mdi-chevron-double-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="job-box bg-white overflow-hidden border rounded mt-4 position-relative overflow-hidden">
-                                        <div class="lable text-center pt-2 pb-2">
-                                            <ul class="list-unstyled best text-white mb-0 text-uppercase">
-                                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="p-4">
-                                            <div class="row align-items-center">
-                                                <div class="col-md-2">
-                                                    <div class="mo-mb-2">
-                                                        <img src="images/featured-job/img-3.png" alt="" class="img-fluid mx-auto d-block">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <h5 class="f-18"><a href="#" class="text-dark">Perancang Grafis</a></h5>
-                                                        <p class="text-muted mb-0">Web Technology pvt.Ltd</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-primary mr-2"></i>Jakarta</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-primary">Rp</span>4jt-6jt/bulan</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0">Waktu Penuh</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="p-3 bg-light">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Pengalaman :</span> 2 years</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Notes :</span> Kontrak 3 tahun </p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <a href="#" class="text-primary">Lamar Sekarang <i class="mdi mdi-chevron-double-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="job-box bg-white overflow-hidden border rounded mt-4 position-relative overflow-hidden">
-                                        <div class="lable text-center pt-2 pb-2">
-                                            <ul class="list-unstyled best text-white mb-0 text-uppercase">
-                                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="p-4">
-                                            <div class="row align-items-center">
-                                                <div class="col-md-2">
-                                                    <div class="mo-mb-2">
-                                                        <img src="images/featured-job/img-4.png" alt="" class="img-fluid mx-auto d-block">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <h5 class="f-18"><a href="#" class="text-dark">Desainer UI/UX</a></h5>
-                                                        <p class="text-muted mb-0">Web Themes pvt.Ltd</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-primary mr-2"></i>Bandung</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-primary">Rp</span>3jt-6jt/bulan</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0">Freelancer</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="p-3 bg-light">
-                                            <div class="row">
-                                                <div class="col-md-10">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Pengalaman :</span> 1 - 2 Tahun</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <a href="#" class="text-primary">Lamar Sekarang <i class="mdi mdi-chevron-double-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="featured-job" role="tabpanel" aria-labelledby="featured-job-tab">
-                            <div class="row">
-                                <div class="col-lg-12">
-
-                                    <div class="job-box bg-white overflow-hidden border rounded mt-4 position-relative overflow-hidden">
-                                        <div class="lable text-center pt-2 pb-2">
-                                            <ul class="list-unstyled best text-white mb-0 text-uppercase">
-                                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="p-4">
-                                            <div class="row align-items-center">
-                                                <div class="col-md-2">
-                                                    <div class="mo-mb-2">
-                                                        <img src="images/featured-job/img-2.png" alt="" class="img-fluid mx-auto d-block">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <h5 class="f-18"><a href="#" class="text-dark">Php Developer</a></h5>
-                                                        <p class="text-muted mb-0">Web Themes pvt.Ltd</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-primary mr-2"></i>Berkshire Circle Knoxville</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-primary">$</span>900-1100/m</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0">Full Time</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="p-3 bg-light">
-                                            <div class="row">
-                                                <div class="col-md-10">
-                                                    <div class="mo-mb-2">
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Experience :</span> 2 - 3 years</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <a href="#" class="text-primary">Apply Now <i class="mdi mdi-chevron-double-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="job-box bg-white overflow-hidden border rounded mt-4 position-relative overflow-hidden">
-                                        <div class="lable text-center pt-2 pb-2">
-                                            <ul class="list-unstyled best text-white mb-0 text-uppercase">
-                                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="p-4">
-                                            <div class="row align-items-center">
-                                                <div class="col-md-2">
-                                                    <div class="mo-mb-2">
-                                                        <img src="images/featured-job/img-1.png" alt="" class="img-fluid mx-auto d-block">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <h5 class="f-18"><a href="#" class="text-dark">Web Developer</a></h5>
-                                                        <p class="text-muted mb-0">Web Technology pvt.Ltd</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-primary mr-2"></i>Oakridge Lane Richardson</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-primary">$</span>1000-1200/m</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0">Full Time</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="p-3 bg-light">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Experience :</span> 1 - 2 years</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Notes :</span> languages only differ in their grammar. </p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <a href="#" class="text-primary">Apply Now <i class="mdi mdi-chevron-double-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="job-box bg-white overflow-hidden border rounded mt-4 position-relative overflow-hidden">
-                                        <div class="lable text-center pt-2 pb-2">
-                                            <ul class="list-unstyled best text-white mb-0 text-uppercase">
-                                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="p-4">
-                                            <div class="row align-items-center">
-                                                <div class="col-md-2">
-                                                    <div class="mo-mb-2">
-                                                        <img src="images/featured-job/img-4.png" alt="" class="img-fluid mx-auto d-block">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <h5 class="f-18"><a href="#" class="text-dark">UI/UX Designer</a></h5>
-                                                        <p class="text-muted mb-0">Web Themes pvt.Ltd</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-primary mr-2"></i>Pinewood Drive Chicago</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-primary">$</span>1000-1200/m</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0">Freelancer</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="p-3 bg-light">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Experience :</span> 1 - 2 years</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Notes :</span> languages only differ in their grammar. </p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <a href="#" class="text-primary">Apply Now <i class="mdi mdi-chevron-double-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="job-box bg-white overflow-hidden border rounded mt-4 position-relative overflow-hidden">
-                                        <div class="lable text-center pt-2 pb-2">
-                                            <ul class="list-unstyled best text-white mb-0 text-uppercase">
-                                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="p-4">
-                                            <div class="row align-items-center">
-                                                <div class="col-md-2">
-                                                    <div class="mo-mb-2">
-                                                        <img src="images/featured-job/img-3.png" alt="" class="img-fluid mx-auto d-block">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <h5 class="f-18"><a href="#" class="text-dark">Graphic Designer</a></h5>
-                                                        <p class="text-muted mb-0">Web Technology pvt.Ltd</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-primary mr-2"></i>Sumner Street Anaheim</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-primary">$</span>800-1000/m</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0">Part Time</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="p-3 bg-light">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Experience :</span> 0 - 1 years</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Notes :</span> languages only differ in their grammar. </p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <a href="#" class="text-primary">Apply Now <i class="mdi mdi-chevron-double-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="part-job" role="tabpanel" aria-labelledby="part-job-tab">
-                            <div class="row">
-                                <div class="col-lg-12">
-
-                                    <div class="job-box bg-white overflow-hidden border rounded mt-4 position-relative overflow-hidden">
-                                        <div class="lable text-center pt-2 pb-2">
-                                            <ul class="list-unstyled best text-white mb-0 text-uppercase">
-                                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="p-4">
-                                            <div class="row align-items-center">
-                                                <div class="col-md-2">
-                                                    <div class="mo-mb-2">
-                                                        <img src="images/featured-job/img-1.png" alt="" class="img-fluid mx-auto d-block">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <h5 class="f-18"><a href="#" class="text-dark">Web Developer</a></h5>
-                                                        <p class="text-muted mb-0">Web Technology pvt.Ltd</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-primary mr-2"></i>Oakridge Lane Richardson</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-primary">$</span>1000-1200/m</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0">Full Time</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="p-3 bg-light">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Experience :</span> 1 - 2 years</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Notes :</span> languages only differ in their grammar. </p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <a href="#" class="text-primary">Apply Now <i class="mdi mdi-chevron-double-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="job-box bg-white overflow-hidden border rounded mt-4 position-relative overflow-hidden">
-                                        <div class="lable text-center pt-2 pb-2">
-                                            <ul class="list-unstyled best text-white mb-0 text-uppercase">
-                                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="p-4">
-                                            <div class="row align-items-center">
-                                                <div class="col-md-2">
-                                                    <div class="mo-mb-2">
-                                                        <img src="images/featured-job/img-2.png" alt="" class="img-fluid mx-auto d-block">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <h5 class="f-18"><a href="#" class="text-dark">Php Developer</a></h5>
-                                                        <p class="text-muted mb-0">Web Themes pvt.Ltd</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-primary mr-2"></i>Berkshire Circle Knoxville</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-primary">$</span>900-1100/m</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0">Full Time</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="p-3 bg-light">
-                                            <div class="row">
-                                                <div class="col-md-10">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Experience :</span> 2 - 3 years</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <a href="#" class="text-primary">Apply Now <i class="mdi mdi-chevron-double-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="job-box bg-white overflow-hidden border rounded mt-4 position-relative overflow-hidden">
-                                        <div class="lable text-center pt-2 pb-2">
-                                            <ul class="list-unstyled best text-white mb-0 text-uppercase">
-                                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="p-4">
-                                            <div class="row align-items-center">
-                                                <div class="col-md-2">
-                                                    <div class="mo-mb-2">
-                                                        <img src="images/featured-job/img-3.png" alt="" class="img-fluid mx-auto d-block">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <h5 class="f-18"><a href="#" class="text-dark">Graphic Designer</a></h5>
-                                                        <p class="text-muted mb-0">Web Technology pvt.Ltd</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-primary mr-2"></i>Sumner Street Anaheim</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-primary">$</span>800-1000/m</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0">Part Time</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="p-3 bg-light">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Experience :</span> 0 - 1 years</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Notes :</span> languages only differ in their grammar. </p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <a href="#" class="text-primary">Apply Now <i class="mdi mdi-chevron-double-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="job-box bg-white overflow-hidden border rounded mt-4 position-relative overflow-hidden">
-                                        <div class="lable text-center pt-2 pb-2">
-                                            <ul class="list-unstyled best text-white mb-0 text-uppercase">
-                                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="p-4">
-                                            <div class="row align-items-center">
-                                                <div class="col-md-2">
-                                                    <div class="mo-mb-2">
-                                                        <img src="images/featured-job/img-4.png" alt="" class="img-fluid mx-auto d-block">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <h5 class="f-18"><a href="#" class="text-dark">UI/UX Designer</a></h5>
-                                                        <p class="text-muted mb-0">Web Themes pvt.Ltd</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-primary mr-2"></i>Pinewood Drive Chicago</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-primary">$</span>1000-1200/m</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0">Freelancer</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="p-3 bg-light">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Experience :</span> 1 - 2 years</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Notes :</span> languages only differ in their grammar. </p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <a href="#" class="text-primary">Apply Now <i class="mdi mdi-chevron-double-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="full-job" role="tabpanel" aria-labelledby="full-job-tab">
-                            <div class="row">
-                                <div class="col-lg-12">
-
-                                    <div class="job-box bg-white overflow-hidden border rounded mt-4 position-relative overflow-hidden">
-                                        <div class="lable text-center pt-2 pb-2">
-                                            <ul class="list-unstyled best text-white mb-0 text-uppercase">
-                                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="p-4">
-                                            <div class="row align-items-center">
-                                                <div class="col-md-2">
-                                                    <div class="mo-mb-2">
-                                                        <img src="images/featured-job/img-2.png" alt="" class="img-fluid mx-auto d-block">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <h5 class="f-18"><a href="#" class="text-dark">Php Developer</a></h5>
-                                                        <p class="text-muted mb-0">Web Themes pvt.Ltd</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-primary mr-2"></i>Berkshire Circle Knoxville</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-primary">$</span>900-1100/m</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0">Full Time</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="p-3 bg-light">
-                                            <div class="row">
-                                                <div class="col-md-10">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Experience :</span> 2 - 3 years</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <a href="#" class="text-primary">Apply Now <i class="mdi mdi-chevron-double-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="job-box bg-white overflow-hidden border rounded mt-4 position-relative overflow-hidden">
-                                        <div class="lable text-center pt-2 pb-2">
-                                            <ul class="list-unstyled best text-white mb-0 text-uppercase">
-                                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="p-4">
-                                            <div class="row align-items-center">
-                                                <div class="col-md-2">
-                                                    <div class="mo-mb-2">
-                                                        <img src="images/featured-job/img-1.png" alt="" class="img-fluid mx-auto d-block">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <h5 class="f-18"><a href="#" class="text-dark">Web Developer</a></h5>
-                                                        <p class="text-muted mb-0">Web Technology pvt.Ltd</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-primary mr-2"></i>Oakridge Lane Richardson</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-primary">$</span>1000-1200/m</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0">Full Time</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="p-3 bg-light">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Experience :</span> 1 - 2 years</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Notes :</span> languages only differ in their grammar. </p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <a href="#" class="text-primary">Apply Now <i class="mdi mdi-chevron-double-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="job-box bg-white overflow-hidden border rounded mt-4 position-relative overflow-hidden">
-                                        <div class="lable text-center pt-2 pb-2">
-                                            <ul class="list-unstyled best text-white mb-0 text-uppercase">
-                                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="p-4">
-                                            <div class="row align-items-center">
-                                                <div class="col-md-2">
-                                                    <div class="mo-mb-2">
-                                                        <img src="images/featured-job/img-4.png" alt="" class="img-fluid mx-auto d-block">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <h5 class="f-18"><a href="#" class="text-dark">UI/UX Designer</a></h5>
-                                                        <p class="text-muted mb-0">Web Themes pvt.Ltd</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-primary mr-2"></i>Pinewood Drive Chicago</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-primary">$</span>1000-1200/m</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0">Freelancer</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="p-3 bg-light">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Experience :</span> 1 - 2 years</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Notes :</span> languages only differ in their grammar. </p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <a href="#" class="text-primary">Apply Now <i class="mdi mdi-chevron-double-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="job-box bg-white overflow-hidden border rounded mt-4 position-relative overflow-hidden">
-                                        <div class="lable text-center pt-2 pb-2">
-                                            <ul class="list-unstyled best text-white mb-0 text-uppercase">
-                                                <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="p-4">
-                                            <div class="row align-items-center">
-                                                <div class="col-md-2">
-                                                    <div class="mo-mb-2">
-                                                        <img src="images/featured-job/img-3.png" alt="" class="img-fluid mx-auto d-block">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <h5 class="f-18"><a href="#" class="text-dark">Graphic Designer</a></h5>
-                                                        <p class="text-muted mb-0">Web Technology pvt.Ltd</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div>
-                                                        <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-primary mr-2"></i>Sumner Street Anaheim</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-primary">$</span>800-1000/m</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <p class="text-muted mb-0">Part Time</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="p-3 bg-light">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Experience :</span> 0 - 1 years</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div>
-                                                        <p class="text-muted mb-0 mo-mb-2"><span class="text-dark">Notes :</span> languages only differ in their grammar. </p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div>
-                                                        <a href="#" class="text-primary">Apply Now <i class="mdi mdi-chevron-double-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <!-- end row -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end row -->
-
-            <!-- end row -->
-            <div class="row">
-                <div class="col-lg-12 mt-4 pt-2">
-                    <nav aria-label="Page navigation example">
-                        <ul class="pagination job-pagination mb-0 justify-content-center">
-                            <li class="page-item disabled">
-                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
-                                    <i class="mdi mdi-chevron-double-left f-15"></i>
-                                </a>
-                            </li>
-                            <div class="row justify-content-center">
-                                <div class="col-12 text-center mt-4 pt-2">
-                                    <a href="job-grid.html" class="btn btn-primary-outline">Cari Keseluruhan <i class="mdi mdi-chevron-right"></i></a>
-                                </div>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-        <!-- end containar -->
-    </section>
-    <!-- all jobs end -->
+    
 
     <!-- How it Work start -->
     <section class="section">
@@ -1342,113 +148,326 @@
             <div class="row justify-content-center">
                 <div class="col-12">
                     <div class="section-title text-center mb-4 pb-2">
-                        <h4 class="title title-line pb-5">Tips Bekerja</h4>
-                        <p class="text-muted para-desc mx-auto mb-1">Bekerja Dengan Cepat Dan Mudah</p>
+                        <h4 class="title title-line pb-5">Tips</h4>
+                        <p class="text-muted para-desc mx-auto mb-1">Bingung?? Munkin Kami Bisa Memberi Beberapa Tips</p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 mt-4 pt-2">
-                    <div class="how-it-work-box bg-light p-4 text-center rounded shadow">
-                        <div class="how-it-work-img position-relative rounded-pill mb-3">
-                            <img src="images/how-it-work/img-1.png" alt="" class="mx-auto d-block" height="50">
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                    <div class="blog position-relative overflow-hidden shadow rounded">
+                        <div class="position-relative overflow-hidden">
+                            <img src="images/How-to-grow-your-IT-career-min.jpg" class="img-fluid rounded-top" alt="">
+                            <div class="overlay rounded-top bg-dark"></div>
+                            <div class="likes">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="list-inline-item mr-2"><a href="javascript:void(0)" class="text-white like"><i class="mdi mdi-heart-outline mr-1"></i>33</a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="text-white comments"><i class="mdi mdi-comment-outline mr-1"></i>08</a></li>
+                                </ul>
+                            </div>
                         </div>
-                        <div>
-                            <h5>Daftar Akun</h5>
-                            <p class="text-muted">Daftarkan Diri Anda Dengan Memiliki Akun Sebagai Calon Pekerja</p>
-                            <a href="index1.html" class="text-primary">Selengkapnya <i class="mdi mdi-chevron-right"></i></a>
+                        <div class="content p-4">
+                            <h4><a href="javascript:void(0)" class="title text-dark">7 Tips Pengembangan Karier yang Perlu Diketahui Sebelum Terjun ke Dunia IT</a></h4>
+                            <p class="text-muted">Pengembangan karier merupakan sesuatu yang penting untuk diperhatikan oleh siapa pun, termasuk kamu yang terjun di dunia teknologi informasi atau biasa disebut sebagai IT (information technology). Seperti yang kita ketahui, IT adalah pekerjaan yang mengharuskan kamu terus-menerus meningkatkan kemampuanmu. Beberapa orang ada yang justru mempertanyakan kualifikasi dan kemampuan dirinya sendiri karena...</p>
+                            <a href="#" class="text-dark readmore">Read more <i class="mdi mdi-chevron-right"></i></a>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-4 pt-2">
-                    <div class="how-it-work-box bg-light p-4 text-center rounded shadow">
-                        <div class="how-it-work-img position-relative rounded-pill mb-3">
-                            <img src="images/how-it-work/img-2.png" alt="" class="mx-auto d-block" height="50">
-                        </div>
-                        <div>
-                            <h5>Cari Pekerjaan</h5>
-                            <p class="text-muted">Cari Pekerjaan Yang Sesuai Dengan Talenta Dan Kenyamanan Anda</p>
-                            <a href="job-grid.html" class="text-primary">Selengkapnya <i class="mdi mdi-chevron-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-4 pt-2">
-                    <div class="how-it-work-box bg-light p-4 text-center rounded shadow">
-                        <div class="how-it-work-img position-relative rounded-pill mb-3">
-                            <img src="images/how-it-work/img-3.png" alt="" class="mx-auto d-block" height="50">
-                        </div>
-                        <div>
-                            <h5>Lamar Pekerjaan</h5>
-                            <p class="text-muted">Isi CV Anda Sesuai Pengalaman Dan Kemampuan Anda</p>
-                            <a href="create-resume.html" class="text-primary">Selengkapnya <i class="mdi mdi-chevron-right"></i></a>
+                        <div class="author">
+                            <p class=" mb-0"><i class="mdi mdi-account text-light"></i> <a href="javascript:void(0)" class="text-light user">Dirio Walls</a></p>
+                            <p class="text-light mb-0 date"><i class="mdi mdi-calendar-check"></i> 25 Sep, 2019</p>
                         </div>
                     </div>
-                            <div class="row justify-content-center">
-                                <div class="col-12 text-center mt-4 pt-2">
-                                    <a href="job-grid.html" class="btn btn-primary-outline">Cari Keseluruhan <i class="mdi mdi-chevron-right"></i></a>
-                                </div>
+                </div><!--end col-->
+                
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                    <div class="blog position-relative overflow-hidden shadow rounded">
+                        <div class="position-relative overflow-hidden">
+                            <img src="images/How-to-grow-your-retail-career-min.jpg" class="img-fluid rounded-top" alt="">
+                            <div class="overlay rounded-top bg-dark"></div>
+                            <div class="likes">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="list-inline-item mr-2"><a href="javascript:void(0)" class="text-white like"><i class="mdi mdi-heart-outline mr-1"></i>33</a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="text-white comments"><i class="mdi mdi-comment-outline mr-1"></i>08</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content p-4">
+                            <h4><a href="javascript:void(0)" class="title text-dark">Ini Dia Tips Sukses Pengembangan Karier di Industri Bisnis Retail!</a></h4>
+                            <p class="text-muted">Bisnis retail di Indonesia merupakan salah satu sektor industri dengan laju pertumbuhan yang paling menjanjikan se-Asia. Hal ini karena industri retail merupakan sektor utama yang mendukung keberlangsungan berbagai sektor industri lainnya. Mulai dari industri pangan, elektronik, otomotif, pakaian, kosmetik, dan kebutuhan.. </p>
+                            <a href="#" class="text-dark readmore">Read more <i class="mdi mdi-chevron-right"></i></a>
+                        </div>
+                        <div class="author">
+                            <p class=" mb-0"><i class="mdi mdi-account text-light"></i> <a href="javascript:void(0)" class="text-light user">Dirio Walls</a></p>
+                            <p class="text-light mb-0 date"><i class="mdi mdi-calendar-check"></i> 25 Sep, 2019</p>
+                        </div>
+                    </div>
+                </div><!--end col-->
+                
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                    <div class="blog position-relative overflow-hidden shadow rounded">
+                        <div class="position-relative overflow-hidden">
+                            <img src="images/Should-I-Consider-a-Lateral-Move_-min.jpg" class="img-fluid rounded-top" alt="">
+                            <div class="overlay rounded-top bg-dark"></div>
+                            <div class="likes">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="list-inline-item mr-2"><a href="javascript:void(0)" class="text-white like"><i class="mdi mdi-heart-outline mr-1"></i>33</a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="text-white comments"><i class="mdi mdi-comment-outline mr-1"></i>08</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content p-4">
+                            <h4><a href="javascript:void(0)" class="title text-dark">Pindah Kerja Tanpa Naik Jabatan Tak Selalu Buruk, Ini Alasannya!</a></h4>
+                            <p class="text-muted">Pinda kerja secara lateral atau horizontal adalah kondisi di mana seseorang pindah kerja ke posisi yang kurang lebih setara dengan pekerjaan sebelumnya. Contohnya adalah ketika seorang pekerja berpindah ke bidang pekerjaan dan tingkat yang sama, namun... </p>
+                            <a href="#" class="text-dark readmore">Read more <i class="mdi mdi-chevron-right"></i></a>
+                        </div>
+                        <div class="author">
+                            <p class=" mb-0"><i class="mdi mdi-account text-light"></i> <a href="javascript:void(0)" class="text-light user">Dirio Walls</a></p>
+                            <p class="text-light mb-0 date"><i class="mdi mdi-calendar-check"></i> 25 Sep, 2019</p>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                    <div class="blog position-relative overflow-hidden shadow rounded">
+                        <div class="position-relative overflow-hidden">
+                            <img src="images/Lima-Pekerjaan-Bidang-Keamanan-untuk-Kamu-Pertimbangkan-scaled.jpg" class="img-fluid rounded-top" alt="">
+                            <div class="overlay rounded-top bg-dark"></div>
+                            <div class="likes">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="list-inline-item mr-2"><a href="javascript:void(0)" class="text-white like"><i class="mdi mdi-heart-outline mr-1"></i>33</a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="text-white comments"><i class="mdi mdi-comment-outline mr-1"></i>08</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content p-4">
+                            <h4><a href="javascript:void(0)" class="title text-dark">Jalur Karier yang Bisa Dipertimbangkan Ketika Menjadi Satpam</a></h4>
+                            <p class="text-muted">Apa kamu sedang mencari pekerjaan sebagai satpam? Jika pengalamanmu terpusat di bidang keamanan, kamu mungkin memang akan mempertimbangkan pekerjaan tersebut terlebih dahulu. Tidak ada salahnya jika kamu ingin tetap menjadi satpam, tetapi sangat disarankan untuk mengembangkan kariermu ke posisi yang...</p>
+                            <a href="#" class="text-dark readmore">Read more <i class="mdi mdi-chevron-right"></i></a>
+                        </div>
+                        <div class="author">
+                            <p class=" mb-0"><i class="mdi mdi-account text-light"></i> <a href="javascript:void(0)" class="text-light user">Dirio Walls</a></p>
+                            <p class="text-light mb-0 date"><i class="mdi mdi-calendar-check"></i> 25 Sep, 2019</p>
+                        </div>
+                    </div>
+                </div><!--end col-->
+                
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                    <div class="blog position-relative overflow-hidden shadow rounded">
+                        <div class="position-relative overflow-hidden">
+                            <img src="images/C_EI_A_How-Do-I-Overcome-Age-Discrimination-When-Looking-for-a-Job-.jpg" class="img-fluid rounded-top" alt="">
+                            <div class="overlay rounded-top bg-dark"></div>
+                            <div class="likes">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="list-inline-item mr-2"><a href="javascript:void(0)" class="text-white like"><i class="mdi mdi-heart-outline mr-1"></i>33</a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="text-white comments"><i class="mdi mdi-comment-outline mr-1"></i>08</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content p-4">
+                            <h4><a href="javascript:void(0)" class="title text-dark">Tips Menghindari Ageisme Saat Melamar Kerja</a></h4>
+                            <p class="text-muted">Perlakuan diskriminasi ketika melamar pekerjaan bentuknya bermacam-macam, salah satunya adalah diskriminasi usia atau ageisme (ageism). Ageisme sendiri biasa ditemukan di lingkungan kerja yang dekat dengan teknologi dan/atau di lingkungan yang memang menggunakan usia sebagai salah satu syarat..</p>
+                            <a href="#" class="text-dark readmore">Read more <i class="mdi mdi-chevron-right"></i></a>
+                        </div>
+                        <div class="author">
+                            <p class=" mb-0"><i class="mdi mdi-account text-light"></i> <a href="javascript:void(0)" class="text-light user">Dirio Walls</a></p>
+                            <p class="text-light mb-0 date"><i class="mdi mdi-calendar-check"></i> 25 Sep, 2019</p>
+                        </div>
+                    </div>
+                </div><!--end col-->
+                
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                    <div class="blog position-relative overflow-hidden shadow rounded">
+                        <div class="position-relative overflow-hidden">
+                            <img src="images/Cara-Terbaik-Memperkenalkan-Diri-di-Interview.jpg" class="img-fluid rounded-top" alt="">
+                            <div class="overlay rounded-top bg-dark"></div>
+                            <div class="likes">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="list-inline-item mr-2"><a href="javascript:void(0)" class="text-white like"><i class="mdi mdi-heart-outline mr-1"></i>33</a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="text-white comments"><i class="mdi mdi-comment-outline mr-1"></i>08</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content p-4">
+                            <h4><a href="javascript:void(0)" class="title text-dark">Inilah Cara Perkenalan Diri Terbaik Saat Interview Sales!</a></h4>
+                            <p class="text-muted">Memiliki karir dalam bidang retail mengharuskanmu menghadapi berbagai tugas yang berhubungan dengan pelanggan. Mulai dari memecahkan masalah, mempromosikan produk dan layanan, hingga menentukan teraihnya target penjualan. Dalam industri ini, tugas seorang sales sangat berperan penting dalam..</p>
+                            <a href="#" class="text-dark readmore">Read more <i class="mdi mdi-chevron-right"></i></a>
+                        </div>
+                        <div class="author">
+                            <p class=" mb-0"><i class="mdi mdi-account text-light"></i> <a href="javascript:void(0)" class="text-light user">Dirio Walls</a></p>
+                            <p class="text-light mb-0 date"><i class="mdi mdi-calendar-check"></i> 25 Sep, 2019</p>
+                        </div>
+                    </div>
+                </div><!--end col-->
+                
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                    <div class="blog position-relative overflow-hidden shadow rounded">
+                        <div class="position-relative overflow-hidden">
+                            <img src="images/Lolos-Interview-Kerja-Dengan-10-Tips-Ini.jpg" class="img-fluid rounded-top" alt="">
+                            <div class="overlay rounded-top bg-dark"></div>
+                            <div class="likes">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="list-inline-item mr-2"><a href="javascript:void(0)" class="text-white like"><i class="mdi mdi-heart-outline mr-1"></i>33</a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="text-white comments"><i class="mdi mdi-comment-outline mr-1"></i>08</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content p-4">
+                            <h4><a href="javascript:void(0)" class="title text-dark">Lolos Interview Kerja Dengan 10 Tips Ini!</a></h4>
+                            <p class="text-muted">Dalam proses mendapatkan sebuah pekerjaan, ada beberapa tahapan yang harus dijalani oleh kandidat. Mulai dari mencari lowongan pekerjaan, memasukkan berkas lamaran, menghadapi perekrut dalam interview kerja, hingga finalisasi perekrutan, dan tanda...</p>
+                            <a href="#" class="text-dark readmore">Read more <i class="mdi mdi-chevron-right"></i></a>
+                        </div>
+                        <div class="author">
+                            <p class=" mb-0"><i class="mdi mdi-account text-light"></i> <a href="javascript:void(0)" class="text-light user">Dirio Walls</a></p>
+                            <p class="text-light mb-0 date"><i class="mdi mdi-calendar-check"></i> 25 Sep, 2019</p>
+                        </div>
+                    </div>
+                </div><!--end col-->
+                
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                    <div class="blog position-relative overflow-hidden shadow rounded">
+                        <div class="position-relative overflow-hidden">
+                            <img src="images/Fresh-Graduate-Ini-Cara-Membuat-CV-yang-Unik.jpg" class="img-fluid rounded-top" alt="">
+                            <div class="overlay rounded-top bg-dark"></div>
+                            <div class="likes">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="list-inline-item mr-2"><a href="javascript:void(0)" class="text-white like"><i class="mdi mdi-heart-outline mr-1"></i>33</a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="text-white comments"><i class="mdi mdi-comment-outline mr-1"></i>08</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content p-4">
+                            <h4><a href="javascript:void(0)" class="title text-dark">Fresh Graduate, Ini Cara Membuat CV yang Unik!</a></h4>
+                            <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium, totam  rem aperiam</p>
+                            <a href="#" class="text-dark readmore">Read more <i class="mdi mdi-chevron-right"></i></a>
+                        </div>
+                        <div class="author">
+                            <p class=" mb-0"><i class="mdi mdi-account text-light"></i> <a href="javascript:void(0)" class="text-light user">Dirio Walls</a></p>
+                            <p class="text-light mb-0 date"><i class="mdi mdi-calendar-check"></i> 25 Sep, 2019</p>
+                        </div>
+                    </div>
+                </div><!--end col-->
+                
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                    <div class="blog position-relative overflow-hidden shadow rounded">
+                        <div class="position-relative overflow-hidden">
+                            <img src="images/JS_CareerTools_DeclineJob-Header-ID.jpg" class="img-fluid rounded-top" alt="">
+                            <div class="overlay rounded-top bg-dark"></div>
+                            <div class="likes">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="list-inline-item mr-2"><a href="javascript:void(0)" class="text-white like"><i class="mdi mdi-heart-outline mr-1"></i>33</a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="text-white comments"><i class="mdi mdi-comment-outline mr-1"></i>08</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content p-4">
+                            <h4><a href="javascript:void(0)" class="title text-dark">Cara Menolak Tawaran Pekerjaan, Gunakan Template Email Ini</a></h4>
+                            <p class="text-muted">Pernah melamar kerja, tapi malah mendapat tawaran pekerjaan yang kurang pas? Berikut adalah tips dan template email untuk menolak tawaran pekerjaan dan tetap membuka peluang di masa depan.</p>
+                            <a href="#" class="text-dark readmore">Read more <i class="mdi mdi-chevron-right"></i></a>
+                        </div>
+                        <div class="author">
+                            <p class=" mb-0"><i class="mdi mdi-account text-light"></i> <a href="javascript:void(0)" class="text-light user">Dirio Walls</a></p>
+                            <p class="text-light mb-0 date"><i class="mdi mdi-calendar-check"></i> 25 Sep, 2019</p>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                    <div class="blog position-relative overflow-hidden shadow rounded">
+                        <div class="position-relative overflow-hidden">
+                            <img src="images/Menjawab-Pertanyaan-di-Interview-dengan-Metode-STAR.jpg" class="img-fluid rounded-top" alt="">
+                            <div class="overlay rounded-top bg-dark"></div>
+                            <div class="likes">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="list-inline-item mr-2"><a href="javascript:void(0)" class="text-white like"><i class="mdi mdi-heart-outline mr-1"></i>33</a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="text-white comments"><i class="mdi mdi-comment-outline mr-1"></i>08</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content p-4">
+                            <h4><a href="javascript:void(0)" class="title text-dark">STAR Method: Teknik Cermat Menjawab Pertanyaan Interview</a></h4>
+                            <p class="text-muted">Mempersiapkan diri sebelum menghadapi interview merupakan sesuatu yang wajib kamu lakukan. Tetapi, seberapa jauhkah persiapan yang telah kamu lakukan selama ini? Apakah kamu mempersiapkan pemahamanmu seputar bidang industri, latar belakang perusahaan, atau bahkan latar belakang para perekrut lewat media sosial khusus professional mereka?</p>
+                            <a href="#" class="text-dark readmore">Read more <i class="mdi mdi-chevron-right"></i></a>
+                        </div>
+                        <div class="author">
+                            <p class=" mb-0"><i class="mdi mdi-account text-light"></i> <a href="javascript:void(0)" class="text-light user">Dirio Walls</a></p>
+                            <p class="text-light mb-0 date"><i class="mdi mdi-calendar-check"></i> 25 Sep, 2019</p>
+                        </div>
+                    </div>
+                </div><!--end col-->
+                
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                    <div class="blog position-relative overflow-hidden shadow rounded">
+                        <div class="position-relative overflow-hidden">
+                            <img src="images//How-To-Write-A-Fresh-Grad-Resume_-Digital-Marketing-min-1.jpg" class="img-fluid rounded-top" alt="">
+                            <div class="overlay rounded-top bg-dark"></div>
+                            <div class="likes">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="list-inline-item mr-2"><a href="javascript:void(0)" class="text-white like"><i class="mdi mdi-heart-outline mr-1"></i>33</a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="text-white comments"><i class="mdi mdi-comment-outline mr-1"></i>08</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content p-4">
+                            <h4><a href="javascript:void(0)" class="title text-dark">Pelajari 6 Tips Berikut untuk Pengembangan Karier Digital Marketing!</a></h4>
+                            <p class="text-muted">Di era digital yang terus berkembang secara cepat, mempelajari skill digital marketing menjadi salah satu poin plus jika kamu ingin mengembangkan kariermu.</p>
+                            <a href="#" class="text-dark readmore">Read more <i class="mdi mdi-chevron-right"></i></a>
+                        </div>
+                        <div class="author">
+                            <p class=" mb-0"><i class="mdi mdi-account text-light"></i> <a href="javascript:void(0)" class="text-light user">Dirio Walls</a></p>
+                            <p class="text-light mb-0 date"><i class="mdi mdi-calendar-check"></i> 25 Sep, 2019</p>
+                        </div>
+                    </div>
+                </div><!--end col-->
+                
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                    <div class="blog position-relative overflow-hidden shadow rounded">
+                        <div class="position-relative overflow-hidden">
+                            <img src="images/Kenalan-dengan-VoIP-dan-Prospek-Kerjanya-Yuk-scaled.jpg" class="img-fluid rounded-top" alt="">
+                            <div class="overlay rounded-top bg-dark"></div>
+                            <div class="likes">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="list-inline-item mr-2"><a href="javascript:void(0)" class="text-white like"><i class="mdi mdi-heart-outline mr-1"></i>33</a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="text-white comments"><i class="mdi mdi-comment-outline mr-1"></i>08</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content p-4">
+                            <h4><a href="javascript:void(0)" class="title text-dark">Kenalan dengan VoIP dan Prospek Kerjanya, Yuk!</a></h4>
+                            <p class="text-muted">Seperti yang kita ketahui bersama, pandemi mengubah seluruh kegiatan komunikasi. Yang biasanya dilakukan secara bertatap muka menjadi harus dilakukan dari rumah masing-masing (physical distancing).</p>
+                            <a href="#" class="text-dark readmore">Read more <i class="mdi mdi-chevron-right"></i></a>
+                        </div>
+                        <div class="author">
+                            <p class=" mb-0"><i class="mdi mdi-account text-light"></i> <a href="javascript:void(0)" class="text-light user">Dirio Walls</a></p>
+                            <p class="text-light mb-0 date"><i class="mdi mdi-calendar-check"></i> 25 Sep, 2019</p>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+                <div class="col-lg-12">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination job-pagination justify-content-center mb-0">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+                                    <i class="mdi mdi-chevron-double-left f-15"></i>
+                                </a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">
+                                    <i class="mdi mdi-chevron-double-right f-15"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>  
                 </div>
-            </div>
+            </div> 
         </div>
     </section>
     <!-- How it Work end -->
 
-    <!-- counter start -->
-    <section class="section bg-counter position-relative" style="background: url('https://via.placeholder.com/200X700//88929f/5a6270C/O https://placeholder.com/') center center;">
-        <div class="bg-overlay bg-overlay-gradient"></div>
-        <div class="container">
-            <div class="row" id="counter">
-                <div class="col-md-3 col-6">
-                    <div class="home-counter pt-4 pb-4">
-                        <div class="float-left counter-icon mr-3">
-                            <i class="mdi mdi-bank h1 text-white"></i>
-                        </div>
-                        <div class="counter-content overflow-hidden">
-                            <h1 class="counter-value text-white mb-1" data-count="120">10</h1>
-                            <p class="counter-name text-white text-uppercase mb-0">Perusahaan</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-6">
-                    <div class="home-counter pt-4 pb-4">
-                        <div class="float-left counter-icon mr-3">
-                            <i class="mdi mdi-file-document-box h1 text-white"></i>
-                        </div>
-                        <div class="counter-content overflow-hidden">
-                            <h1 class="counter-value text-white mb-1" data-count="480">80</h1>
-                            <p class="counter-name text-white text-uppercase mb-0">Aplikasi</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-6">
-                    <div class="home-counter pt-4 pb-4">
-                        <div class="float-left counter-icon mr-3">
-                            <i class="mdi mdi-calendar-multiple-check h1 text-white"></i>
-                        </div>
-                        <div class="counter-content overflow-hidden">
-                            <h1 class="counter-value text-white mb-1" data-count="120">10</h1>
-                            <p class="counter-name text-white text-uppercase mb-0">Jumlah Lowongan</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="home-counter pt-4 pb-4">
-                        <div class="float-left counter-icon mr-3">
-                            <i class="mdi mdi-account-multiple-plus h1 text-white"></i>
-                        </div>
-                        <div class="counter-content overflow-hidden">
-                            <h1 class="counter-value text-white mb-1" data-count="200">10</h1>
-                            <p class="counter-name text-white text-uppercase mb-0">Anggota</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- counter end -->
+    
 
     <!-- testimonial start -->
     <section class="section">
@@ -1492,34 +511,8 @@
     <!-- blog end -->
 
     <!-- subscribe start -->
-    <section class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-5">
-                    <div class="float-left position-relative notification-icon mr-2">
-                        <i class="mdi mdi-bell-outline text-primary"></i>
-                        <span class="badge badge-pill badge-danger">1</span>
-                    </div>
-                    <h5 class="mt-2 mb-0">Notifikasi Pekerjaan</h5>
-                </div>
-                <div class="col-lg-8 col-md-7 mt-4 mt-sm-0">
-                    <form>
-                        <div class="form-group mb-0">
-                            <div class="input-group mb-0">
-                                <input name="email" id="email" type="email" class="form-control" placeholder="Your email :" required="" aria-describedby="newssubscribebtn">
-                                <div class="input-group-append">
-                                    <button class="btn btn-primary submitBnt" type="submit" id="newssubscribebtn">Subscribe</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- subscribe end -->
-
-    <!-- footer start -->
+    
+   
     <footer class="footer">
         <div class="container">
             <div class="row">
